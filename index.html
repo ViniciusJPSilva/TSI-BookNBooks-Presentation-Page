@@ -62,7 +62,7 @@
         <div class="container">
           <div class="row">
             <div class="col s12 m12 l4">
-              <div class="card custom-card">
+              <div class="card custom-card custom-card-helper">
                 <div class="card-content">
                   <span class="card-title fc-orange">
                     <h3>Descubra</h3>
@@ -84,7 +84,7 @@
               </div>
             </div>
             <div class="col s12 m12 l4">
-              <div class="card custom-card">
+              <div class="card custom-card custom-card-helper">
                 <div class="card-content">
                   <span class="card-title fc-orange">
                     <h3>Leia</h3>
@@ -102,7 +102,7 @@
               </div>
             </div>
             <div class="col s12 m12 l4">
-              <div class="card custom-card">
+              <div class="card custom-card custom-card-helper">
                 <div class="card-content">
                   <span class="card-title fc-orange">
                     <h3>Compartilhe</h3>
@@ -147,64 +147,88 @@
         </div>
       </section>
 
-      <section class="section helper-section valign-wrapper">
+      <br />
+      <hr />
+      <br />
+
+      <section class="section tips-section valign-wrapper">
         <div class="container">
           <div class="row">
-            <div class="col s12 m12 l4">
+            <div class="col s12">
+              <h4>Dicas do Book N' Books</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
               <div class="card custom-card">
+                <div class="card-image">
+                  <img src="assets/search.jpg" height="400px" />
+                </div>
                 <div class="card-content">
-                  <span class="card-title fc-orange">
-                    <h3>Descubra</h3>
-                  </span>
-                  <hr />
-                  <div>
-                    <h5>
-                      Desvende novos mundos entre as páginas. Deixe-se envolver
-                      pelas sugestões personalizadas do Book N' Books e descubra
-                      obras que desafiem, encantem e inspirem.
-                    </h5>
-                    <hr />
-                    <h6>
-                      Busque títulos literários utilizando a barra de pesquisa
-                      no início da página!
-                    </h6>
-                  </div>
+                  <span class="card-title">Pesquisa</span>
+                  <p>
+                    Pesquise um livro ou autor utilizando a barra de pesquisa no
+                    canto superior da página, como mostrado na imagem acima. A
+                    busca pode ser pelo título do livro, autor ou ISBN.
+                    Lembrando que o acervo se limita ao disponível pela API do
+                    Google Books!
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="col s12 m12 l4">
+            <div class="col s12 m6">
               <div class="card custom-card">
+                <div class="card-image">
+                  <img src="assets/result.jpg" height="400px" />
+                </div>
                 <div class="card-content">
-                  <span class="card-title fc-orange">
-                    <h3>Leia</h3>
-                  </span>
-                  <hr />
-                  <div>
-                    <h5>
-                      Explore a magia das palavras. Com o Book N' Books, sua
-                      jornada literária ganha vida. De clássicos atemporais a
-                      lançamentos emocionantes, embarque em histórias que
-                      enriquecem a mente e alimentam a imaginação.
-                    </h5>
-                  </div>
+                  <span class="card-title">Seleção</span>
+                  <p>
+                    Após efetuar a busca, você será redirecionado à página de
+                    resultado, nela se encontrarão os exemplares encontrados na
+                    API do Google Books utilizando o termo pesquisado.
+                  </p>
+                  <ul class="collection">
+                    <li class="collection-item">
+                      - Clique em um exemplar para acessar a página do livro.
+                    </li>
+                    <li class="collection-item">
+                      - Exemplares com o ícone de verificação (azul com a letra
+                      'V' em branco) possuem uma prévia ou o livro completo em
+                      PDF.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="col s12 m12 l4">
+            <div class="col s12 m6">
               <div class="card custom-card">
+                <div class="card-image">
+                  <img src="assets/book.jpg" height="400px" />
+                </div>
                 <div class="card-content">
-                  <span class="card-title fc-orange">
-                    <h3>Compartilhe</h3>
-                  </span>
-                  <hr />
-                  <div>
-                    <h5>
-                      Encontre sua tribo literária. Compartilhe suas
-                      descobertas, opiniões e recomendações com a comunidade
-                      Book N' Books. Juntos, criamos um espaço onde a paixão
-                      pela leitura se torna uma experiência coletiva.
-                    </h5>
-                  </div>
+                  <span class="card-title">Livro</span>
+                  <p>
+                    Na página do livro você encontrará diversos dados sobre o
+                    exemplar, como autores, data de publicação, uma pequena
+                    descrição e outras informações sobre a obra. Na página
+                    também é possivel visualizar a prévia (quando disponível) e
+                    obter as recomendações da Inteligência Artificial, bastando
+                    clicar em seus respectivos botões.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card custom-card">
+                <div class="card-image">
+                  <img src="assets/related.jpg" height="400px" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Recomendações da IA</span>
+                  <p>
+                    Os títulos recomendados pela Inteligência Artificial serão exibidos em uma tabela. Para efetuar uma busca por exemplares disponíveis na API do Google Books, basta clicar em um dos títulos e você será redirecionado à página de resultado.
+                  </p>
                 </div>
               </div>
             </div>

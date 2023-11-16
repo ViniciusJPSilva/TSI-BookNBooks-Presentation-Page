@@ -45,8 +45,12 @@ h4 {
 }
 
 .logo-section,
-.helper-section {
+.helper-section{
   height: 100vh;
+}
+
+.tips-section {
+  min-height: 100vh;
 }
 
 .logo-section,
@@ -71,8 +75,12 @@ h4 {
 }
 
 .custom-card {
-  height: 450px;
+  height: 670px;
   overflow: hidden;
+}
+
+.custom-card-helper {
+  height: 450px;
 }
 
 .load-modal {
@@ -243,6 +251,10 @@ h4 {
   .helper-section {
     height: 150vh;
   }
+
+  .custom-card img {
+    height: 200px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -259,12 +271,20 @@ h4 {
   .book-data .txt-data h3 {
     font-size: 2em;
   }
+
+  .custom-card img {
+    height: 200px;
+  }
 }
 
 @media (max-width: 480px) {
   .custom-card {
     height: 400px;
     overflow: scroll;
+  }
+
+  .custom-card img {
+    height: 200px;
   }
 
   .helper-section {
@@ -280,6 +300,10 @@ h4 {
   .custom-card {
     height: 500px;
     overflow: scroll;
+  }
+
+  .custom-card img {
+    height: 200px;
   }
 
   .helper-section {
